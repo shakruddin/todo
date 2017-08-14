@@ -1,0 +1,152 @@
+body{
+    background: #edf0f1;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 100px 20px 20px 20px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 5px 10px #ccc;
+    border-radius: 0px 0px 15px 15px;
+    top: 0;
+    left: 0;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    background: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 50px;
+    padding: 3px 60px 3px 10px;
+    color: rgba(255,255,255,0.9);
+    outline: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+input::placeholder{
+    color: rgba(255,255,255,0.9);
+    font-size: 15px;
+    font-weight: bolder;
+}
+header button{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 11.5px;
+    right: 11px;
+    z-index: 2;
+    border-radius: 50px;
+    border: none;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+#submit{
+    font-size: 30px;
+    color: limegreen;
+}
+.lists{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 4px;
+    display: flex;
+    box-shadow: 0px 0px 2px 1px #ccc;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    font-size: 40px;
+    color: yellowgreen;
+}
+.list-1{
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50px;
+    font-family: ubuntu;
+    font-weight: bolder;
+    color: #777;
+}
+.lists .buttons{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete{
+    color: #777;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+.delete:hover{
+    color: red;
+}
+.hr{
+    width: 1px;
+    height: 50px;
+    background: #ccc;
+}
+.complete{
+    color: #777;
+    width: 50px;
+    height: 50px;
+    background: none;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+.sonu-2{
+    border: 2px solid #777;
+    border-radius: 50px;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+.sonu-2:hover{
+    border: 2px solid limegreen;
+    background: limegreen;
+    color: #fff;
+}
+
+#completed{
+    width: 100%;
+    background: #edf0f1;
+    margin: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #999;
+    display: none;
+    
+}
+p{
+    text-align: center;
+    z-index: 5;
+    margin-top: -31px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #edf0f1;
+    width: 33%;
+    font-family: ubuntu;
+    border-radius: 25px;
+    color: #888;
+}
